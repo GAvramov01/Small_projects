@@ -1,0 +1,38 @@
+:root {
+    --blue: #4285F4;
+    --red: #DB4437;
+    --yellow: #F4B400;
+    --green: #0F9D58;
+}
+
+p {
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 60px;
+    font-weight: 500;
+}
+.google-logo span:nth-of-type(1) {
+    font-size: 70px;
+    position: relative;
+    left: 3px;
+    color: var(--blue);
+}
+.google-logo span:nth-of-type(2) {
+    color: var(--red);
+}
+.google-logo span:nth-of-type(3) {
+    color: var(--yellow);
+}
+.google-logo span:nth-of-type(4) {
+    color: var(--blue);
+}
+.google-logo span:nth-of-type(5) {
+    color: var(--green);
+    position: relative;
+    right: 3px;
+}
+.google-logo span:nth-of-type(6) {
+    color: var(--red);
+    position: relative;
+    right: 6px;
+}

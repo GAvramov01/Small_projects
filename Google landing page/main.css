@@ -1,0 +1,76 @@
+body section .main {
+    display: flex;
+
+}
+img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+.input-img-left {
+    width: 13px;
+}
+.google-div,
+.insert-text {
+    display: flex;
+    justify-content: center;
+}
+.insert-text {
+    display: flex;
+    align-content: center;
+    width: 600px;
+    height: 40px;
+    border-radius: 20px;
+    border: solid 1px rgb(199, 199, 199);  
+}
+.insert-text:hover {
+    box-shadow: 0 0 10px 1px rgba(58, 58, 58, 0.2);
+}
+.input-text {
+    width: 420px;
+    position: relative;
+    right: 20px;
+    border: none;
+    outline: none;
+}
+.insert-text .icons {
+    display: flex;
+    align-items: center;
+}
+.input-img-left {
+    position: relative;
+    right: 33px;
+ }
+.input-img-right:nth-of-type(2) {
+    position: relative;
+    left: 5px;
+}
+.input-img-right:nth-of-type(3) {
+    position: relative;
+    left: 20px;
+}
+.input-img-right:nth-of-type(4) {
+    position: relative;
+    left: 35px;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.btn .btn-left,
+.btn .btn-right {
+    background-color: rgb(240, 240, 240);
+    color: grey;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 4px;
+    font-size: small;
+}
+.btn-left:hover,
+.btn-right:hover {
+    cursor: pointer;
+    border: solid 1px rgb(176, 176, 176);
+    box-shadow: 0 0 10px 1px rgba(58, 58, 58, 0.2);
+}

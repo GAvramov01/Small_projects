@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Product Sans&display=swap');
+:root {
+    --letter-color:rgb(132, 132, 132);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Product Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+section header {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+section header .right-header ul,
+section header .left-header ul {
+    display: flex;
+    margin: 8px;
+}
+.right-header ul li,
+.left-header ul li {
+    list-style: none;
+    margin: 8px;
+}
+.right-header ul li a,
+.left-header ul li a {
+    font-size: small;
+    color: rgb(132 , 132, 132);
+    text-decoration: none;
+}
+section header ul li .email-letter {
+    font-size: small;
+    background-color: rgb(68, 49, 49);
+    padding: 6px 8px;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: bold;
+}

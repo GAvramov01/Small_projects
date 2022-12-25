@@ -1,0 +1,54 @@
+footer {
+    position: fixed;
+    flex-direction: column;
+    align-content: flex-end;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    background-color: rgb(246, 246, 246);
+}
+section .footer-container .country .country-name {
+    font-size: small;
+}
+section .footer-container .options .rows{
+    display: flex;
+    justify-content: space-between;
+}
+section .footer-container .options .rows ul {
+    display: flex;
+    padding: 0;
+}
+section .footer-container .options .rows ul li {
+    list-style: none;
+}
+section .footer-container .options .rows ul li a {
+    text-decoration: none;
+    font-size: small;
+}
+.country-name,
+.options .rows ul li {
+    padding: 10px;
+}
+.country-name,
+section .footer-container .options .rows ul li a {
+    color: rgb(132, 132, 132);
+}
+.country-name:hover,
+section .footer-container .options .rows ul li a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+} 
+section .footer-container .country{
+    border: solid 1px rgb(204, 204, 204);
+    border-width: 0px 0px 2px 0px ;
+}
+section footer .footer-container .options .rows {
+    display: flex;
+    flex-wrap: wrap;
+}
+/* @media (max-width: 660px) {
+    
+    .main .middle-section .insert-text {
+        margin: 0 30px;
+    }
+} */
